@@ -1,0 +1,18 @@
+Package: LiWaP
+Title: Livestock Water Partitioning Model
+Version: 0.0.0.9000
+Authors@R:
+    person("Lydia", "Lanzoni", email = "lydia.lanzoni@fao.org", role = c("aut", "cre"))
+Description: Estimates the partitioning of water in livestock production
+    systems at the cohort level. The model combines species-specific water
+    intake equations with feed dry matter content, ambient temperature,
+    lactation, milk production, live weight gain, egg production, and grazing
+    information to calculate feed water, drinking water, and total water
+    intake. It partitions intake into water outputs in feces, milk, eggs,
+    growth, urine, and evaporation, and estimates consumptive water use after
+    accounting for water returned to grazed land.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    data.table
+Config/roxygen2/version: 8.0.0
